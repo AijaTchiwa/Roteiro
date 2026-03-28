@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400&family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
@@ -75,7 +76,7 @@ h2, h3 { /* Para subtítulos */
         z-index: 10;
     }
 
-    .container{
+    .container1{
         padding: 10px 50px;
         position: relative;
         width: 50%;
@@ -94,55 +95,55 @@ h2, h3 { /* Para subtítulos */
             }
         }
 
-    .container:nth-child(1){
+    .container1:nth-child(1){
         animation-delay: 0s;
     }
 
-    .container:nth-child(2){
+    .container1:nth-child(2){
         animation-delay: 1s;
     }
 
-    .container:nth-child(3){
+    .container1:nth-child(3){
         animation-delay: 2s;
     }
 
-    .container:nth-child(4){
+    .container1:nth-child(4){
         animation-delay: 3s;
     }
 
-    .container:nth-child(5){
+    .container1:nth-child(5){
         animation-delay: 4s;
     }
 
-    .container:nth-child(6){
+    .container1:nth-child(6){
         animation-delay: 5s;
     }
 
-    .container:nth-child(7){
+    .container1:nth-child(7){
         animation-delay: 6s;
     }
 
-    .container:nth-child(8){
+    .container1:nth-child(8){
         animation-delay: 7s;
     }
 
-    .container:nth-child(9){
+    .container1:nth-child(9){
         animation-delay: 8s;
     }
 
-    .container:nth-child(10){
+    .container1:nth-child(10){
         animation-delay: 9s;
     }
 
-    .container:nth-child(11){
+    .container1:nth-child(11){
         animation-delay: 10s;
     }
 
-    .container:nth-child(12){
+    .container1:nth-child(12){
         animation-delay: 11s;
     }
 
-    .container:nth-child(13){
+    .container1:nth-child(13){
         animation-delay: 12s;
     }
 
@@ -164,7 +165,7 @@ h2, h3 { /* Para subtítulos */
         left: 50%;
     }
 
-    .container img{
+    .container1 img{
         position: absolute;
         right:-43px ;
         top: 32px;
@@ -213,7 +214,7 @@ h2, h3 { /* Para subtítulos */
         left: 31px; 
     }
 
-    .container {
+    .container1 {
         width: 100%;
         padding-left: 80px;
         padding-right: 20px;
@@ -234,7 +235,7 @@ h2, h3 { /* Para subtítulos */
 }
 
 @media screen and (max-width: 480px) {
-    .container {
+    .container1{
         padding-left: 70px;
     }
     
@@ -261,17 +262,20 @@ h2, h3 { /* Para subtítulos */
             <h1>Roteiro Turístico de Lisboa</h1>
          </div>
         <div class="timeline">
-            <div class="container left-container">
+            <div class="container1 left-container">
                 <img class="timeline-img" src="imagens/colombo.png" alt="">
                 <div class="text-box">
                     <h2>Marquês de Pombal/Colombo</h2>
                     <p>1 de Abril - Quarta-feira</p>
-                    <p></p>
+                     <div>
+                        <a class="btn" style="background-color: #1E3A5F; color: #fff;" href="">Fotos Colombo</a>
+                        <a class="btn" style="background-color: #1E3A5F; color: #fff;" href="#fotosoceanario">Fotos Marquês</a>
+                    </div>
                 </div>
             </div>
 
 
-            <div class="container right-container">
+            <div class="container1 right-container">
                 <img class="timeline-img" src="imagens/alfama.png" alt="">
                 <div class="text-box">
                     <h2>Passear por Alfama</h2>
@@ -280,7 +284,7 @@ h2, h3 { /* Para subtítulos */
                 </div>
             </div>
 
-            <div class="container left-container">
+            <div class="container1 left-container">
                 <img class="timeline-img" src="imagens/pessoas.jpg" alt="">
                 <div class="text-box">
                     <h2>Visitar a Chará</h2>
@@ -289,7 +293,7 @@ h2, h3 { /* Para subtítulos */
                 </div>
             </div>
 
-            <div class="container right-container">
+            <div class="container1 right-container">
                 <img class="timeline-img" src="imagens/pessoas.jpg" alt="">
                 <div class="text-box">
                     <h2>Visitar o Irmão Josemar</h2>
@@ -298,7 +302,7 @@ h2, h3 { /* Para subtítulos */
                 </div>
             </div>
 
-            <div class="container left-container">
+            <div class="container1 left-container">
                 <img class="timeline-img" src="imagens/pessoas.jpg" alt="">
                 <div class="text-box">
                     <h2>Visitar a Família Brito</h2>
@@ -308,7 +312,7 @@ h2, h3 { /* Para subtítulos */
             </div>
 
 
-            <div class="container right-container">
+            <div class="container1 right-container">
                 <img class="timeline-img" src="imagens/betel.png" alt="">
                 <div class="text-box">
                     <h2>Ir ao Betel</h2>
@@ -316,26 +320,32 @@ h2, h3 { /* Para subtítulos */
                     <p></p>
                 </div>
             </div>
-            <div class="container left-container">
+            <div class="container1 left-container">
                 <img class="timeline-img" src="imagens/zoo.png" alt="">
                 <div class="text-box">
                     <h2>Ir ao Zoológico</h2>
                     <p>7 de Abril - Terça-feira</p>
-                    <p></p>
+                    <div>
+                        <a class="btn" style="background-color: #1E3A5F; color: #fff;" href="https://www.zoo.pt/">Site Zoo</a>
+                        <a class="btn" style="background-color: #1E3A5F; color: #fff;" href="zoo/zoo.html">Veja fotos</a>
+                    </div>
                 </div>
             </div>
 
 
-            <div class="container right-container">
+            <div class="container1 right-container">
                 <img class="timeline-img" src="imagens/oceanario.png" alt="">
                 <div class="text-box">
                     <h2>Oceanário e Teleférico</h2>
                     <p>8 de Abril - Quarta-feira</p>
-                    <p></p>
+                    <div>
+                        <a class="btn" style="background-color: #1E3A5F; color: #fff;" href=" https://oceanario.pt/">Site Oceanario</a>
+                        <a class="btn" style="background-color: #1E3A5F; color: #fff;" href="oceanario/oceanario.html">Veja fotos</a>
+                    </div>
                 </div>
             </div>
 
-            <div class="container left-container">
+            <div class="container1 left-container">
                 <img class="timeline-img" src="imagens/28.png" alt="">
                 <div class="text-box">
                     <h2>Elétrico 28 e Rossio</h2>
@@ -345,7 +355,7 @@ h2, h3 { /* Para subtítulos */
             </div>
 
 
-            <div class="container right-container">
+            <div class="container1 right-container">
                 <img class="timeline-img" src="imagens/Tejo.png" alt="">
                 <div class="text-box">
                     <h2>Andar pelo rio Tejo</h2>
@@ -355,7 +365,7 @@ h2, h3 { /* Para subtítulos */
             </div>
 
             
-            <div class="container left-container">
+            <div class="container1 left-container">
                 <img class="timeline-img" src="imagens/Belem.png" alt="">
                 <div class="text-box">
                     <h2>Torres de Belém</h2>
@@ -365,7 +375,7 @@ h2, h3 { /* Para subtítulos */
             </div>
 
 
-            <div class="container right-container">
+            <div class="container1 right-container">
                 <img class="timeline-img" src="imagens/colombo.png" alt="">
                 <div class="text-box">
                     <h2>Fazer últimas compras</h2>
@@ -374,7 +384,7 @@ h2, h3 { /* Para subtítulos */
                 </div>
             </div>
             
-            <div class="container left-container">
+            <div class="container1 left-container">
                 <img class="timeline-img" src="" alt="">
                 <div class="text-box">
                     <h2>Arrumar as coisas</h2>
@@ -385,5 +395,7 @@ h2, h3 { /* Para subtítulos */
 
         </div>
     </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
